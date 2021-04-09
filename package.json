@@ -1,0 +1,25 @@
+{
+  "name": "Simple-Express-Webserver",
+  "version": "1.0.0",
+  "description": "This is a simple Express.js web server. It will serve get and post requests for data from \"questions-example.json\".\r ## Project setup\r ```\r npm install\r ```",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndeighan/Simple-Express-Webserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndeighan/Simple-Express-Webserver/issues"
+  },
+  "homepage": "https://github.com/ndeighan/Simple-Express-Webserver#readme"
+}
