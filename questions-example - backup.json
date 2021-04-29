@@ -1,0 +1,114 @@
+{
+    "quizzes": [
+        {
+          "quiz_id": "q01",
+          "quizTitle": "Quiz 1",
+          "questions": [
+            {
+              "questionId": 1,
+              "questionType": "trueFalse",
+              "questionText": "This is a true/false question",
+              "answer": "true",
+              "isCorrect": false,
+              "attempts": 1
+            },
+            {
+              "questionId": 2,
+              "questionType": "input",
+              "questionText": "This is an input question 1",
+              "answer": 2,
+              "isCorrect": false,
+              "attempts": 1
+            },
+            {
+              "questionId": 3,
+              "questionType": "input",
+              "questionText": "This is input question 2",
+              "answer": "abc",
+              "isCorrect": false,
+              "attempts": 1
+            },
+            {
+              "questionId": 4,
+              "questionType": "mcq",
+              "questionText": "This is mcq 1 bob 1",
+              "multipleAnswer": false,
+              "options": [
+                {
+                  "optionId": 1,
+                  "optionText": "Option 1",
+                  "correct": false
+                },
+                {
+                  "optionId": 2,
+                  "optionText": "Option 2",
+                  "correct": false
+                },
+                {
+                  "optionId": 3,
+                  "optionText": "Option 3",
+                  "correct": true
+                }
+              ],
+              "isCorrect": false,
+              "attempts": 1
+            }
+          ]
+        },
+        {
+          "quiz_id": "q02",
+          "quizTitle": "Quiz 2",
+          "questions": [
+            {
+              "questionId": 1,
+              "questionType": "trueFalse",
+              "questionText": "This is a true/false question 2",
+              "answer": "false",
+              "isCorrect": false,
+              "attempts": 1
+            },
+            {
+              "questionId": 2,
+              "questionType": "input",
+              "questionText": "This is an input question 3",
+              "answer": 4,
+              "isCorrect": false,
+              "attempts": 1
+            },
+            {
+              "questionId": 3,
+              "questionType": "input",
+              "questionText": "This is input question 4",
+              "answer": "qwerty",
+              "isCorrect": false,
+              "attempts": 1
+            },
+            {
+              "questionId": 4,
+              "questionType": "mcq",
+              "questionText": "This is mcq 1 bob 2",
+              "multipleAnswer": true,
+              "options": [
+                {
+                  "optionId": 1,
+                  "optionText": "Option 1",
+                  "correct": false
+                },
+                {
+                  "optionId": 2,
+                  "optionText": "Option 2",
+                  "correct": true
+                },
+                {
+                  "optionId": 3,
+                  "optionText": "Option 3",
+                  "correct": true
+                }
+              ],
+              "isCorrect": false,
+              "attempts": 2
+            }
+          ]
+        }
+    ]
+}
